@@ -1,0 +1,925 @@
+
+
+a {color:inherit;
+text-decoration: bold;
+text-decoration: white;
+border-bottom: none;
+} 
+
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+ }
+
+.yourphoto {
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .yourphoto {
+    width: 100%;
+    }
+  }
+
+.topbanner {
+    position: fixed;
+    background-color: rgba(173, 210, 165, 0.634);
+    border-radius: 15pt;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
+    margin-left: 70%;
+    width: 160px;
+}
+
+.my-store-37062369 {
+    margin-top: 20px;
+}
+
+a:link, a:hover {
+    text-decoration: none !important;
+ }
+
+.orderin {
+    margin-bottom: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 16px;
+    color: black;
+    background-color: rgb(247, 241, 242);
+    padding-left: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    a {
+    text-decoration:white;
+    border-bottom: none;
+    }
+  }
+
+
+.topbannersmall {
+    position: fixed;
+    background-color: black;
+    border-radius: 15pt;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left: 70%;
+    width: 450px;
+    font-size: 16pt;
+}
+
+@media screen and (max-width: 600px) {
+    div.topbanner {
+      margin-left: 5%;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    div.sticker {
+    opacity: 0%;
+    }
+  }
+
+.yourphototext {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sticker {
+    position: fixed;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 5px;
+    padding-top: 80px;
+}
+
+.stickerpic {
+    width: 150px;
+    opacity: 80%;
+}
+
+  
+
+.stickerpicsmall {
+    width: 65%;
+    opacity: 80%;
+}
+
+
+header {
+   text-align: center;
+}
+
+.imageheader {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.orderbanner {
+    font-family: 'Abel', sans-serif;
+    font-size: 12pt;
+    color:black;
+    padding:12px;
+    align-content: center;
+    display: inline-block;
+    width:100%;
+    background-color: black;
+}
+
+.meimage  {
+    width: 250px;
+    align-content: center;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.paintimagegrid {
+     padding-left: 10%;
+     padding-right: 10%;
+     width: 80%;
+     font-family: 'Abel', sans-serif;
+font-size: 12pt;
+}
+
+.cardimagegrid {
+     width: 100%;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+align-items: center; /* Center horizontally */
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 12px 12px;
+    padding: 50px 10px;
+}
+
+.homeimage {
+border-radius: 5px;
+}
+
+.lastmin {
+        display: flex;
+    justify-content: center;
+     font-family: 'Abel', sans-serif;
+font-size: 12pt;
+}
+
+
+
+.insta {
+border-radius: 5px;
+}
+
+.column img {
+    width: 30%;
+    border-radius: 5px;
+}
+
+
+.columnhome {
+flex: 33.33%;
+padding: 0 0px;
+max-height: 300px;
+display: flex;
+justify-content: center;
+gap: 12px 12px;
+}
+
+.columnhome img {
+margin-top: 8px;
+vertical-align: middle;
+width: 16%;
+}
+
+.lplink {
+    display: flex;
+justify-content: center; /* Horizontal alignment */
+align-items: center; /* Vertical alignment */
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px;
+    align-content: center;
+ background:rgb(217, 96, 59);
+    color: white;
+    opacity: 80%;
+    width: 300px;
+    border-radius: 15pt;
+    text-align: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+.reviewlinkgrid {
+    max-width: 500px;
+}
+
+.ofc {
+    margin-left: 3px;
+}
+
+
+.one {
+flex-wrap: wrap;
+width: 800px;
+padding-left:20px;
+padding-right: 20px;
+max-width: 90%;
+background-color: ;
+border-radius: 10px;
+}
+
+.two {
+    flex-wrap: wrap;
+    width: 300px;
+    padding:20px;
+    }
+
+.three {
+        flex-wrap: wrap;
+        width: 400px;
+        padding:25px;
+        max-width: 90%;
+        }
+
+        @media screen and (max-width: 1250px) {
+            div.one {
+                width:320px;
+                font-size: 14pt;
+                margin-bottom: 40px;
+            }
+          }
+
+          @media screen and (max-width: 600px) {
+            div.three {
+                width:320px;
+                padding: 0px;
+                font-size: 14pt;
+            }
+          }
+
+          @media screen and (max-width: 600px) {
+            div.shoplink2 {
+                width:210px;
+            }
+          }
+
+          @media screen and (max-width: 600px) {
+            div.two {
+                padding-top:0px;
+                width:320px;
+                padding-left: 20px;
+                font-size: 14pt;
+                background: rgb(247, 246, 243);
+                margin-bottom: 30px;
+            }
+          }
+
+          @media screen and (max-width: 600pt) {
+            div.FlexcontainerG {
+                padding-top:0px;
+                width:100%;
+                background: rgb(247, 246, 243);
+                margin-top: 10px;
+            }
+          }
+
+ @media screen and (max-width: 600pt) {
+            div.FlexcontainerI {
+            align-content: center;
+            display: flex;
+justify-content: center;
+            }
+          }
+
+
+          @media screen and (max-width: 1200px) {
+            div.FlexcontainerZ {
+            }
+          }
+
+             @media screen and (max-width: 1200px) {
+            div.FlexcontainerPaint {
+            }
+          }
+
+           @media screen and (max-width: 1200px) {
+            .pagelinks {
+                width: 100%;
+            }
+          }
+
+          @media screen and (max-width: 600px) {
+            div.flexContainerC {
+               width: 370px;
+            }
+          }
+
+          @media screen and (max-width: 600px) {
+            div.orderdetails2 {
+               width: 370px;
+            }
+          }
+
+        
+.arrow {
+    width: 20%;
+    margin-left: 20px;
+}
+
+.insta {
+    width:100%;
+}
+
+.FlexcontainerZ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    color: black;
+    display: inline-flex;
+    margin-left: 0%;
+}
+
+.FlexcontainerH {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wholepage {
+    background: rgb(255, 248, 239);
+}
+
+.subtitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    color: black;
+    display: table;
+    margin: 70px;
+}
+
+.logo {
+    height: 15vw;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
+
+.image {
+    height: 100%;
+}
+
+.postagebanner {
+height: 20px;
+}
+
+.flowerheader {
+    width: 100%;
+}
+
+.blank {
+    width: 20%;
+    margin-top: 10px;
+}
+
+.center {
+    font-family: 'Edu NSW ACT Cursive', cursive;
+    font-size: 28px;
+}
+
+.line {
+    width: 30%;
+}
+
+.title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18pt;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20pt;
+    display: inline-block;
+    color: black;
+}
+
+.title2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18pt;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10pt;
+    display: inline-block;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    div.title {
+      font-size: 18pt;
+      width: 340px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.logo {
+      width: 350px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.about {
+      font-size: 17px;
+      margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.gal {
+      font-size: 17px;
+      margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.order {
+      font-size: 17px;
+      margin-top: 10px;
+    }
+  }
+
+h4 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 26pt;
+    text-align: center;
+    text-decoration: none;
+}
+
+.about {
+    font-family: 'Edu NSW ACT Cursive', cursive;
+    padding: 2px;
+    width: 100%;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 10px;
+    color: rgb(35, 36, 34);
+}
+
+.cardsabout {
+    font-family: 'Edu NSW ACT Cursive', cursive;
+ font-size: 18px;
+  display: inline-block;
+ text-align: center;
+ padding-left: 20%;
+ padding-right: 20%; 
+ padding-bottom: 10px;
+}
+
+.cardsone   {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: bold;
+    padding-top: 10px;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+
+column img {
+margin-top: 8px;
+vertical-align: middle;
+}
+
+.pagelinks {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+    font-size: 18px;
+    display: flex;
+    margin: auto;
+    gap: 12px;
+    justify-content: center;
+}
+
+.gal {
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: white;
+    padding: 2px;
+    width: 340px;
+    border-radius: 6px;
+    display: inline-block;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 20px;
+    color:black;
+}
+
+
+.order {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: white;
+    padding: 2px;
+    width: 360px;
+    border-radius: 6px;
+    display: inline-block;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 20px;
+    color: black;
+}
+
+.shoplink {
+    font-family:'Roboto Condensed', sans-serif;
+    padding: 5px;
+    align-content: center;
+    background:rgb(199, 196, 194);
+    opacity: 80%;
+    width: 100px;
+    border-radius: 15pt;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: -4px;
+    color: beige;
+}
+
+.shoplink2 {
+    font-family:'Roboto Condensed', sans-serif;
+    padding: 5px;
+    align-content: center;
+    background:rgb(217, 96, 59);
+    color: white;
+    opacity: 80%;
+    width: 4000px;
+    border-radius: 15pt;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: -4px;
+}
+
+.shoplink3 {
+    font-family:'Roboto Condensed', sans-serif;
+    padding: 5px;
+    align-content: center;
+    background:rgb(217, 96, 59);
+    color: white;
+    opacity: 80%;
+    width: 200px;
+    border-radius: 15pt;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: -4px;
+    display: flex;
+    justify-content: center;
+}
+
+.shopcenter
+{
+    display: flex;
+    justify-content:left;
+}
+
+.shopcenter3 {
+    display: flex;
+    justify-content: center;
+}
+
+.shopcenter2
+{
+    font-family:'Cedarville Cursive', cursive;
+    font-size: 16pt;
+    display: flex;
+    justify-content:left;
+}
+
+.designs {
+    text-align:center;
+    text-decoration: italic;
+    font-family:'Roboto Condensed', sans-serif;
+    width: 100%;
+    opacity:70%;
+    padding: 5px;
+    align-content: center;
+    border-radius: 15pt;
+}
+
+.designbanner
+{
+    display: flex;
+    justify-content:center;
+}
+
+.FlexcontainerG
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    font-family: 'Cedarville Cursive', cursive;
+    margin-top: 20px;
+    font-size: 18pt;
+}
+
+.smallerheaderimage {
+    width:100%;
+    margin-top:10px;
+}
+
+.linkgallery {
+    font-size: 30pt;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ordertitle {
+    font-size: 30pt;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top:20px;
+}
+
+.freedelivery {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 30px;
+}
+
+.Birthday {
+    margin: 10px;
+}
+
+.Christmas {
+    margin: 10px;
+}
+
+.Wedding {
+    margin: 10px;
+}
+
+.Care {
+    margin:10px;
+}
+
+.Floral {
+    margin: 10px;
+}
+
+.Thanks {
+    margin:10px;
+}
+
+.Graduation {
+    margin:10px;
+}
+
+.Other {
+    margin:10px;
+}
+
+.orderpage {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+    padding: 3px;
+    color: white;
+    width: 100px;
+    border-radius: 6px;
+    display: inline-block;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.browsepage {
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    color: black;
+    text-align: center;
+    display:inline-block;
+    margin-bottom: 20px;
+    width:100%;
+    max-width: 700px;
+}
+
+.titleunder {
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.howtoorder {
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    color: black;
+    text-align: center;
+    display:inline-block;
+    margin-bottom: 20px;
+    width:100%;
+    max-width: 700px;
+}
+
+.productdetails {
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    color: :black;
+    max-width: 700px;
+    display: flex;
+    text-align: center;
+    display: inline-block;
+    width:100%;
+}
+
+.deliveryoptions {
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    color: :black;
+}
+
+.toyou, .tothem {
+    width: 400px;
+}
+
+.or {
+    width:20px;
+    margin-left: 20px;
+    background-color: #F0E7D4;
+    padding: 10px;
+    border-radius: 50px;
+    max-height: 20px;
+}
+
+.flexcontainerE {
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.flexcontainerG {
+    font-family:'Abel', sans-serif;
+    font-size: 14pt;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.orderdetails2 {
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-top: 20px;
+}
+
+.post {
+margin-left: 30px;
+}
+
+.delivery {
+    font-family:'Abel', sans-serif;
+    font-size: 18pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+
+.price {
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    align-content: center;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-decoration: italic;
+    margin-bottom: 20px;
+    background-color:white;
+}
+
+
+@media (max-width: 600px) {
+    .gallery {
+      display: block;
+    }
+  }
+
+
+.Commissions {
+    font-family:'Abel', sans-serif;
+    font-size: 14pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20pt;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.Instagram_Text {
+    margin-right: 9px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.Instagram_Link {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.Email_Link {
+    margin-top: 12px;
+    margin-right: 25px;
+}
+
+.Email_Text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 8px;
+}
+
+.Paypal_Text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Facebook_Text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Facebook_Link {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 10px;
+}
+
+  .commissionbottom {
+    font-family:'Pacifico', cursive;
+    font-size: 14pt;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+
+
+.flexContainerC {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    color: black;
+    display: inline-flex;
+}
+
+
+.lastmin {
+    width: 100%;
+}
+
+.flexContainerF {
+    width:100%;
+    margin-top: 5px;
+}
+
+
+.my-store-37062369 {
+    font-family: 'Roboto Condensed', sans-serif;
+    align-items: ;
+}
